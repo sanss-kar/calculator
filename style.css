@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    /* background-color: black; */
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    /* border: 2px solid black; */
+    background-color: cyan;
+    /* height: 76vh; */
+    width: 40vh;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 5px #666;
+   
+}
+.screen{
+    margin-top: 0px;
+    border-radius: 10px;
+    /* border: 2px solid black; */
+    height: 21vh;
+    width: 40vh;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 5vh;
+    text-align: right;
+    background-color: rgba(28, 27, 27, 0.923);
+}
+.click{
+    margin-left: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 8px;
+}
+.btn{
+    flex: 0 0 22%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+    height: 10vh;
+    width: 9vh;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+.btn-equal{
+    flex: 0 0 22%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+    height: 10vh;
+    width: 9vh;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+.btn-clear{
+
+    flex: 0 0 22%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+    height: 10vh;
+    width: 9vh;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+.btn-erase{
+    flex: 0 0 22%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+    height: 10vh;
+    width: 9vh;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
